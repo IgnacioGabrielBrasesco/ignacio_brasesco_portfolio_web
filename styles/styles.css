@@ -11,18 +11,30 @@ header{
 }
 
 body{
-    background-image: url(../img/fondoportada.svg);
-    background-position: top;
+        background-color: #E8E8E9;
+}
+
+.inicio{
+
+    /* background-image: url(../img/fondoportada.svg); */
+    /* background-position: top; */   
     
-    /* background-image: url(../img/IgnacioGabrielBrasesco.jpg); */
     /* background-repeat: no-repeat;
     background-size: 100%; */
-    
+}
+
+.backgroundGris{
+    background-color: #E8E8E9;
+}
+
+.colorGris{
+    color: #E8E8E9;
 }
 
 nav{
     /* background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(53,51,205,1) 100%); */
+    
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -70,6 +82,10 @@ nav a{
     /* color: white; */
     color: #062D3E;
     font-size: 1.5rem;
+}
+
+.colorAzulOscuro{
+    color: #062D3E;
 }
 
 .logo{
@@ -145,25 +161,25 @@ main div img{
     padding: 5%;
 }
 
-.lenguajes{
-    background-image: url(../img/fondoportada.svg);
+.habilidades{
+    /* background-image: url(../img/fondoportada.svg); */
     background-position: top;
     display: flex;
     flex-direction: column;
-    padding: 10%;
+    padding: 5%;
 }
 
-.botonLenguaje{
-    display: flex;    
-    width: max-content;
-    padding: 1% 3%;
-    border-radius: 25px;
-    margin: 1%;
+a{
+    text-decoration: none;
+    color: white;
 }
 
-.botonDesarrolloWeb{
+/* .botonDesarrolloWeb{
     background-color: #2F516C;
     color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .botonDiseño{
@@ -182,7 +198,7 @@ main div img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
+} */
 
 .descripcionLenguajes{
     display: flex;
@@ -207,6 +223,42 @@ main div img{
     
 }
 
+.accordion{
+    margin-bottom: 20px;
+}
+
+.backgroundNaranja{
+    background-color: #D26021;
+}
+
+.contenedorFormación{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    background-color: white;
+}
+
+.contenedorTituloFormacion{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.contenedorBotonesDiplomas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.buttonDiploma{
+    margin: 3% 6% 3% 0px;
+    background-color: #2F516C;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 44%;
+    
+}
 
 @media(min-width: 576px){
 
@@ -251,9 +303,11 @@ main div img{
         justify-content: start;
     }
     
-    .lenguajes{
+    .habilidades{
         padding: 5% 10%;
     }
+
+    
 }
 
 @media(min-width: 768px){
