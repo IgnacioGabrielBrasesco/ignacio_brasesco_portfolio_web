@@ -247,16 +247,18 @@ a{
 .contenedorBotonesDiplomas{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 2%;
+    
 }
 
 .buttonDiploma{
-    margin: 3% 6% 3% 0px;
+    /* margin: 3% 6% 3% 0px; */
     background-color: #2F516C;
     color: white;
     padding: 10px 20px;
     border-radius: 20px;
-    width: 44%;
+    /* width: 44%; */
     
 }
 
@@ -304,6 +306,10 @@ a{
     }
     
     .habilidades{
+        padding: 5% 10%;
+    }
+
+    .contenedorFormación{
         padding: 5% 10%;
     }
 
