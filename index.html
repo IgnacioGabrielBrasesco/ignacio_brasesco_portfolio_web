@@ -15,6 +15,12 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
     />
     <link rel="StyleSheet" href="./styles/styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -34,11 +40,11 @@
           </li>
           <hr />
           <li>
-            <a href="#">Experiencia</a>
+            <a href="#Experiencia">Experiencia</a>
           </li>
           <hr />
           <li>
-            <a href="#">Contacto</a>
+            <a href="#contacto">Contacto</a>
           </li>
           <hr />
         </ul>
@@ -232,7 +238,7 @@
             </div>
           </div>
 
-          <div class="accordion-item">
+          <!-- <div class="accordion-item">
             <h2 class="accordion-header">
               <button
                 class="accordion-button collapsed"
@@ -257,7 +263,7 @@
                 página
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <!--final del acordeon lenguajes-->
@@ -426,11 +432,20 @@
 
         <!--final del acordeon programas-->
       </div>
-
+      <!--Sección de formación-->
       <a name="formacion"></a>
       <div class="contenedorFormación">
         <div class="contenedorTituloFormacion">
           <h2 class="tituloFormacion">Formación</h2>
+        </div>
+        <div class="contenedorInstitucionFormacion">
+          <h3>Instituto Superior Santa Rosa de Calamuchita</h3>
+          <div class="contenedorBotonesDiplomas">
+            <p class="buttonDiploma">
+              Tecnicatura Superior en Programación Web y Aplicaciones Digitales
+              - En curso
+            </p>
+          </div>
         </div>
         <div class="contenedorInstitucionFormacion">
           <h3>BA Multiplica - UTN</h3>
@@ -463,7 +478,127 @@
           </div>
         </div>
       </div>
+
+      <a name="Experiencia"></a>
+      <div class="contenedorExperiencia">
+        <div class="contenedorTituloExperiencia">
+          <h2 class="h2Experiencia">Experiencia</h2>
+        </div>
+
+        <div class="paginaWebSallenaveInmobiliaria">
+          <h3 class="h3Experiencia">Pagina Web de Sallenave Inmobiliaria</h3>
+          <p>
+            Diseñé y Desarrollé esta pagina web completa desde cero, utilizando
+            HTML, CSS, Bootstrap y JavaScript
+          </p>
+          <a
+            class="colorNaranja"
+            href="https://ignaciogabrielbrasesco.github.io/Sallenave_Inmobiliaria_Web/"
+            target="_blank"
+            >Clic aquí para ver la pagina</a
+          >
+          <a
+            class="colorNaranja"
+            href="https://github.com/IgnacioGabrielBrasesco/Sallenave_Inmobiliaria_Web.git"
+            target="_blank"
+            >Clic aquí para ver el repositorio de GitHub</a
+          >
+        </div>
+
+        <div class="paginaWebSallenaveInmobiliaria h3Experiencia">
+          <h3>Mi Porfolio Web</h3>
+          <p>
+            Diseñé y Desarrollé esta pagina web completa desde cero, utilizando
+            HTML, CSS, Bootstrap y JavaScript
+          </p>
+
+          <a
+            class="colorNaranja"
+            href="https://github.com/IgnacioGabrielBrasesco/ignacio_brasesco_portfolio_web.git"
+            target="_blank"
+            >Clic aquí para ver el repositorio de GitHub</a
+          >
+        </div>
+
+        <div class="paginaWebSallenaveInmobiliaria h3Experiencia">
+          <h3>Portfolio web Furbo</h3>
+          <p>
+            Diseñé y Desarrollé esta pagina web completa desde cero, utilizando
+            HTML, CSS, Bootstrap y JavaScript
+          </p>
+
+          <a
+            class="colorNaranja"
+            href="https://ignaciogabrielbrasesco.github.io/Furbo_Porfolio_Web/"
+            target="_blank"
+            >Clic aquí para ver la pagina</a
+          >
+          <a
+            class="colorNaranja"
+            href="https://github.com/IgnacioGabrielBrasesco/Furbo_Porfolio_Web.git"
+            target="_blank"
+            >Clic aquí para ver el repositorio de GitHub</a
+          >
+        </div>
+      </div>
     </main>
+    <!--fin del MAIN-->
+
+    <!--FOOTER-->
+    <a name="contacto"></a>
+    <footer>
+      <h2 class="h2Footer">Contacto</h2>
+      <div class="contenedorFooter">
+        <h3 class="h3Form">Deje su mensaje</h3>
+        <section>
+          <form
+            action="https://formsubmit.co/brasescoignaciogabriel@gmail.com"
+            method="POST"
+          >
+            <label for="nombre">Nombre</label>
+            <input
+              class="inputContacto"
+              type="text"
+              name="name"
+              id="nombre"
+              required
+            />
+            <label for="email">Email</label>
+            <input
+              class="inputContacto"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
+            <label for="cel">Cel</label>
+            <input
+              class="inputContacto"
+              type="number"
+              name="cel"
+              id="cel"
+              required
+            />
+            <label for="comments">Comentario</label>
+            <textarea
+              name="comments"
+              id="comentario"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+            <button class="btnEnviarForm" type="submit">Enviar</button>
+            <input
+              type="hidden"
+              name="_next"
+              value="https://ignaciogabrielbrasesco.github.io/ignacio_brasesco_portfolio_web/"
+            />
+          </form>
+        </section>
+      </div>
+    </footer>
+    <!--fin del FOOTER-->
+
     <!--links de javaScript-->
     <script src="./js/script.js"></script>
     <!--link de bootstrap-->

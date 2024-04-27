@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Poppins";
 }
 
 header{
@@ -13,6 +14,118 @@ header{
 body{
         background-color: #E8E8E9;
 }
+
+/*fuente popins familia de letras*/
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+/*hasta aca toda la familia de letra poppins*/
 
 .inicio{
 
@@ -260,6 +373,98 @@ a{
     border-radius: 20px;
     /* width: 44%; */
     
+}
+
+
+.contenedorExperiencia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.contenedorTituloExperiencia{
+    padding-bottom: 5%;
+}
+
+.paginaWebSallenaveInmobiliaria{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.paginaWebSallenaveInmobiliaria a {
+    /* color: #2F516C; */
+    font-weight: 600;
+    font-style: italic;
+    
+}
+
+h2{
+    font-size: 1.3rem;
+}
+h3{
+    font-size: 1.3rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #062D3E;
+    padding: 5%;
+    
+}
+
+.h3Form{
+    text-align: center;
+}
+
+.contenedorFooter{
+    color: white;
+    width: 100%;
+}
+
+.h2Footer{
+    color: white;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.btnEnviarForm{
+    margin: 5% 0px;
+    width: 100%;
+    padding: 5px;
+}
+
+textarea{
+    width: 100%;
+}
+
+.inputContacto{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.h2Experiencia{
+    color: #2F516C;
+}
+
+.h3Experiencia{
+    color: #2F516C;
+}
+
+.colorNaranja{
+    color: #D26021;
 }
 
 @media(min-width: 576px){
