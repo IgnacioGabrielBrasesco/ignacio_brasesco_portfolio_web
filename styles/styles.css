@@ -158,7 +158,8 @@ nav ul{
     /* background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(53,51,205,1) 100%); */
     /* background-color: gray; */
-    background-image: url(../img/fondoportada.svg);
+    /* background-image: url(../img/fondoportada.svg); */
+    background-image: url(/img/fondoPortada.svg);
     background-position: top;
     position: absolute;
     padding: 0px;
