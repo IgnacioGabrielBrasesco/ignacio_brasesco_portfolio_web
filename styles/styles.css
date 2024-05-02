@@ -127,15 +127,6 @@ body{
 
 /*hasta aca toda la familia de letra poppins*/
 
-.inicio{
-
-    /* background-image: url(../img/fondoportada.svg); */
-    /* background-position: top; */   
-    
-    /* background-repeat: no-repeat;
-    background-size: 100%; */
-}
-
 .backgroundGris{
     background-color: #E8E8E9;
 }
@@ -145,9 +136,6 @@ body{
 }
 
 nav{
-    /* background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(53,51,205,1) 100%); */
-    
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -155,10 +143,6 @@ nav{
 }
 
 nav ul{    
-    /* background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(53,51,205,1) 100%); */
-    /* background-color: gray; */
-    /* background-image: url(../img/fondoportada.svg); */
     background-image: url(/img/fondoPortada.svg);
     background-position: top;
     position: absolute;
@@ -184,7 +168,6 @@ nav ul hr{
 
 nav ul li{
     list-style: none;
-    /* background-color: blueviolet; */
     width: 50%;
     padding: 15px 10%;
 }
@@ -193,7 +176,6 @@ nav a{
     display: flex;
     align-items: center;
     text-decoration: none;
-    /* color: white; */
     color: #062D3E;
     font-size: 1.5rem;
 }
@@ -209,7 +191,6 @@ nav a{
 nav i{
     display: flex;
     font-size: 3rem;
-    /* color: white; */
     color: #062D3E;
 }
 
@@ -219,7 +200,6 @@ nav i{
     display: flex;
     flex-direction: column;
     margin-top: 12px;
-
 }
 
 .presentacion{
@@ -232,8 +212,7 @@ nav i{
 
 .imagenPresentacion{
     display: flex;
-    order: -1;
-    
+    order: -1;    
 }
 
 main div img{
@@ -270,49 +249,22 @@ main div img{
     justify-content: center;
     align-items: center;
     flex-direction: column;    
-    color: white;
+    color: #E8E8E9;
     background-color: #2F516C;
-    padding: 5%;
+    padding: 5% 10%;
 }
 
 .habilidades{
-    /* background-image: url(../img/fondoportada.svg); */
     background-position: top;
     display: flex;
     flex-direction: column;
-    padding: 5%;
+    padding: 5% 10%;
 }
 
 a{
     text-decoration: none;
     color: white;
 }
-
-/* .botonDesarrolloWeb{
-    background-color: #2F516C;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.botonDiseño{
-    background-color: #D26021;    
-    color: #062D3E;
-}
-
-.contenedorBotonesDesarrollo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 5%;
-}
-
-.contenedorBotonesDiseño{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-} */
 
 .descripcionLenguajes{
     display: flex;
@@ -348,7 +300,7 @@ a{
 .contenedorFormación{
     display: flex;
     flex-direction: column;
-    padding: 5%;
+    padding: 5% 10%;
     background-color: white;
 }
 
@@ -367,13 +319,12 @@ a{
 }
 
 .buttonDiploma{
-    /* margin: 3% 6% 3% 0px; */
     background-color: #2F516C;
     color: white;
     padding: 10px 20px;
-    border-radius: 20px;
-    /* width: 44%; */
-    
+    border-radius: 20px;    
+    margin-bottom: 5%;
+    padding: 5% 5% 4% 5%;
 }
 
 
@@ -381,12 +332,17 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin: 5%;
+    padding-left: 5%;
+    padding-right: 5%;    
 }
 
 .contenedorTituloExperiencia{
     padding-bottom: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .paginaWebSallenaveInmobiliaria{
@@ -396,10 +352,8 @@ a{
 }
 
 .paginaWebSallenaveInmobiliaria a {
-    /* color: #2F516C; */
     font-weight: 600;
-    font-style: italic;
-    
+    font-style: italic;    
 }
 
 h2{
@@ -414,8 +368,7 @@ footer{
     flex-direction: column;
     align-items: center;
     background-color: #062D3E;
-    padding: 5%;
-    
+    padding: 5%;    
 }
 
 .h3Form{
@@ -437,8 +390,8 @@ form{
     flex-direction: column;
     align-items: start;
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .btnEnviarForm{
@@ -485,7 +438,6 @@ section a i{
 .sectionDatosContacto{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
     align-items: start;
     width: 100%;
     padding: 10%;
@@ -575,6 +527,20 @@ section a i{
         font-size: 0.9rem;
         display: flex;
         justify-content: center;
+        padding: 5%;
+    }
+
+    nav ul li a:hover{
+        
+            background-color: #D26021;
+            color: white;
+            border-radius: 25px;
+        
+    }
+
+    .descargarCV:hover{
+        background-color: #D26021;
+            color: white;
     }
 
     .imagenPresentacion{
