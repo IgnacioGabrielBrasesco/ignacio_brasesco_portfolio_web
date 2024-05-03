@@ -262,8 +262,15 @@ main div img{
     align-items: center;
     flex-direction: column;    
     color: #E8E8E9;
-    background-color: #2F516C;
+    background-color: #062D3E;
     padding: 5% 10%;
+}
+
+.pSobreMi{
+    padding: 5%;
+    color: #062D3E;
+    background-color: #E8E8E9;
+    border-radius: 25px;
 }
 
 .habilidades{
