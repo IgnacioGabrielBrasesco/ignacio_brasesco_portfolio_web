@@ -7,7 +7,10 @@
 
 header{
     display: flex;
-    box-shadow: 6px 6px 6px rgba(196, 195, 195, 0.3);
+    background-color: #062D3E;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    /* box-shadow: 6px 6px 6px rgba(196, 195, 195, 0.3); */
     
 }
 
@@ -140,6 +143,7 @@ nav{
     width: 100%;
     justify-content: space-between;
     padding: 15px 10%;
+    
 }
 
 nav ul{    
@@ -175,7 +179,7 @@ nav ul li{
 nav a{
     display: flex;
     align-items: center;
-    text-decoration: none;
+    text-decoration: none;    
     color: #062D3E;
     font-size: 1.5rem;
 }
@@ -186,12 +190,14 @@ nav a{
 
 .logo{
     font-weight: bold;
+    color: white;
 }
 
 nav i{
     display: flex;
     font-size: 3rem;
-    color: #062D3E;
+    color: wheat;
+    /* color: #062D3E; */
 }
 
 /*inicio*/
@@ -199,13 +205,14 @@ nav i{
 .inicio{
     display: flex;
     flex-direction: column;
-    margin-top: 12px;
+    /* margin-top: 12px; */
+    margin-top: 5%;
 }
 
 .presentacion{
     display: flex;
     flex-direction: column;
-    padding: 4%;
+    padding: 5%;
     color: #062D3E;
     
 }
@@ -445,6 +452,9 @@ section a i{
 }
 
 @media(min-width: 576px){
+    nav a{
+        color: wheat;
+    }
 
     .inicio{
         display: grid;
@@ -498,7 +508,7 @@ section a i{
     
 }
 
-@media(min-width: 768px){
+@media(min-width: 768px){   
     nav i{
         display: none;
         
