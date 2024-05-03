@@ -142,7 +142,7 @@ nav{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 15px 10%;
+    padding: 4% 10%;
     
 }
 
@@ -209,6 +209,10 @@ nav i{
     margin-top: 5%;
 }
 
+.imgDelInicio{
+    border-radius: 17%;
+}
+
 .presentacion{
     display: flex;
     flex-direction: column;
@@ -218,6 +222,7 @@ nav i{
 }
 
 .imagenPresentacion{
+    padding: 10%;
     display: flex;
     order: -1;    
 }
@@ -452,6 +457,9 @@ section a i{
 }
 
 @media(min-width: 576px){
+    nav{
+        padding: 2% 10%;
+    }
     nav a{
         color: wheat;
     }
@@ -528,7 +536,7 @@ section a i{
         align-items: center;
         position: relative;
         background: none;
-        top: 46px;
+        top: 45px;
         transition: 0s;
         
     }
@@ -589,9 +597,16 @@ section a i{
         padding: 0px;
     }
 
+    nav ul{
+        top: 48px;
+    }
+
 }
 
 @media(min-width: 1200px){
+    nav ul{
+        top: 54px;
+    }
     .imagenPresentacion{
         height: 550px;
         
@@ -609,5 +624,6 @@ section a i{
 }
 
 @media(min-width: 1400px){
+    
 
 }
