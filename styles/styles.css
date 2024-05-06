@@ -147,7 +147,8 @@ nav{
 }
 
 nav ul{    
-    background-image: url(/img/fondoPortada.svg);
+    /* background-image: url(/img/fondoPortada.svg); */
+    background-color: #E8E8E9;
     background-position: top;
     position: absolute;
     padding: 0px;
